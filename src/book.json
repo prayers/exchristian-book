@@ -1,0 +1,72 @@
+{
+  "language": "zh-hans",
+
+
+  "plugins": [
+    "github",
+    "tbfed-pagefooter",
+    "anchor-navigation-ex",
+    "-lunr", 
+    "-search", 
+    "search-pro",
+    "splitter",
+    "expandable-chapters",
+    "pageview-count",
+    "-sharing",
+    "sharing-plus"
+
+  ],
+
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/exchristian/exchristian.github.io"
+    },
+
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy exchristian 2018",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": false,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    },
+    "fontsettings": {
+      "size": 1
+    },
+    "pdf": {
+      "pageNumbers": true,
+      "fontSize": 18,
+      "paperSize": "a5"
+
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": true,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+          "facebook", "google", "twitter",
+          "weibo", "qq", "linkedin",
+          "qzone", "douban"
+      ]
+    }
+
+
+  }
+}
